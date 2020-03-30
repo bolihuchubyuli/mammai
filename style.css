@@ -1,0 +1,59 @@
+<style>
+
+body
+*
+{
+font-family: fantasy;
+}
+{
+margin:0;
+}
+a
+{
+color:black;
+text-decoration: none;
+}
+h1{
+text-align: center;
+font-size: 45px;
+border-bottom:1px solid gray;
+margin:0;
+padding: 15px
+}
+.s
+{
+color:gray;
+}
+ol
+{
+border-right: 1px solid gray;
+margin:0;
+width:100px;
+padding: 20px;
+}
+#grid ol
+{
+padding-left: 32px;
+}
+#grid
+{
+display: grid;
+grid-template-columns: 150px 1fr;
+}
+#grid #article{
+padding-left: 25px;
+}
+@media(max-width:800px) {
+  h1{
+  border-bottom:none;
+  }
+  ol
+  {
+  border-right:none;
+}
+#grid
+{
+display:block;
+}
+
+</style>
